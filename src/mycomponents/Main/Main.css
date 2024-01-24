@@ -1,0 +1,160 @@
+.contain-main {
+  margin: 70px 100px;
+}
+.contain1 {
+  width: 110vh;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.contain-pn {
+  opacity: 0;
+  z-index: 0;
+  background: transparent;
+  border: transparent;
+}
+.contain-pn:hover {
+  opacity: 0;
+  z-index: 0;
+  background: transparent;
+  border: transparent;
+}
+.contain-pn:active {
+  opacity: 0;
+  z-index: 0;
+  background: transparent;
+  border: transparent;
+}
+.offer-50 {
+  align-items: center;
+}
+.offer-logo {
+  width: 25vh;
+  padding-bottom: 5px;
+}
+.msi-banner-parent{
+  justify-content: center;
+  padding: 20px 0;
+}
+.msi-banner-parent{
+  border-radius: 9px;
+}
+.msi-banner{
+  border-radius: 9px;
+}
+.shop-categories-main {
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(0, 0, 0, 0.087);
+  padding: 200px 0;
+}
+.shop-categories {
+  padding: 10px 70px;
+}
+.multicarousel-box {
+  text-decoration: none;
+  padding: 0 15px;
+  align-items: center;
+}
+.multicarousel-box:hover{
+  text-decoration: none;
+}
+.multicarousel-box-image{
+  transition: transform 0.3s ease-in-out;
+}
+.multicarousel-box-image:hover { 
+  transform: scale(1.1);
+}
+.multicarousel-box h5{
+  font-weight: 600;
+}
+.multicarousel-box img{
+  width:23vh;
+  border-radius: 8px;
+}
+
+/* Additional info content */
+
+.Additional-info {
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10vh 2vh;
+  font-size: 0.85rem;
+}
+
+.add-info-in {
+  width: 25vh;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.Additional-info h5 {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+  .contain-main{
+    overflow-x:hidden ;
+  }
+   .msi-banner{
+    width: 50vh;
+   }
+   .contain1{
+    width: 320px;
+    height: 100px;
+    position: absolute;
+    left:20px;
+    top:200px;  
+   }
+   .carousel img{
+    border-radius: 9px;
+   }
+   .offer-50{
+    display: none;
+   }
+   .msi-banner-parent{
+    overflow-x: hidden;
+    position: absolute;
+    top:380px;
+    left:22px;
+   }
+   .msi-banner{
+    width: 320px;
+   }
+   .shop-categories-main{
+    overflow-x: hidden;
+    position: relative;
+    top:400px;
+    background-color: rgba(0, 132, 255, 0.103);
+   }
+   .shop-categories-main h2{
+    font-size:x-large;
+    padding: 0;
+    margin: 0;
+   }
+   .Additional-info{
+    flex-wrap: wrap;
+    position: relative;
+    top:400px;
+    padding: 20px 0;
+    margin-bottom: 200px;
+   }
+   .add-info{
+     padding: 10px 0;
+   }
+   .add-info-image{
+    width: 15vh;
+   }
+   main{
+    background-color: black;
+   }
+   .multicarousel-box-image{
+    transition: none;
+   }
+   .multicarousel-box-image:hover{
+    transform: none;
+   }
+   
+}

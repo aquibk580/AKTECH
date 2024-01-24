@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto+Serif:opsz@8..144&family=Ubuntu&family=Varela+Round&display=swap");
+.text-center{
+    text-align: center;
+}
+.border{
+    border: 2px solid black;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.text-left{
+text-align: left;
+}
+.fit-content{
+    max-width: fit-content;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.f{
+    font-family: "Varela Round", 'sans-serif';
+}
+.red{
+    color: red;
+}
+.bg-blue{
+    background-color: rgb(8, 178, 190);
+}
+.bg-red{
+    background-color: red;
+}
+.black{
+    color:black;
+}
+.white{
+    color: white;
+}
+.bold{
+    font-weight: bold;
+}
+.flex-center{
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.display-none{
+    display: none;
+}
+.underlined-none{
+    text-decoration: none;
+}

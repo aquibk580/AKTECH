@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: disc;
+}
+
+footer{
+    width:100%;
+    background-color:#23232b;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    padding-bottom: 20px ;
+    padding-top: 50px;
+}
+.box1{
+    width: 40vh;
+    position: relative;
+    bottom:20px;
+}
+.box1 img{
+   width: 35vh;
+   margin: 0 20px;
+   margin-bottom: 15px;
+}
+  
+.footer-li{
+    margin: 10px 20px;
+}
+.footer-li:hover{
+    color:red;
+    cursor: pointer;
+}
+  
+
+.box4 p{
+    margin: 10px 20px;
+}
+.footer-main h1{
+   margin:10px 10px ;
+}
+
+.icons{
+   justify-content: space-evenly;
+   margin: 40px 30px;
+   position: relative;
+   right: 30px;
+}
+.icons i{
+    padding: 0 15px;
+}
+
+.fa-facebook:hover{
+    color: rgb(53, 53, 187);
+}
+.fa-instagram:hover{
+    animation: animatee 3s ease infinite;
+}
+@keyframes animatee{
+    0%{
+        color:rgb(255, 0, 195);
+    }
+    100%{
+        color:orange;
+    }
+}
+.fa-youtube:hover{
+    color:red;
+}
+.fa-whatsapp:hover{
+    color:rgb(34, 255, 0);
+}
+
+@media screen and (max-width: 700px) {
+    .footer-main{
+        flex-wrap: wrap;
+        position: relative;
+        top:200px;
+    }
+    .footer-main h1{
+        font-size: xx-large;
+    }
+    .box1,.box2,.box3,.box4{
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
+    .footer-contactus{
+     margin-left: 55px;
+    }
+    .box1 p{
+        position: relative;
+        left: 15px;
+    }
+    .icons{
+       margin-left: 30px;
+    }
+    .icons i{
+       padding: 0 15px;
+    }
+}
