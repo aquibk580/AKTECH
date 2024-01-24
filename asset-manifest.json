@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AKTECH/static/css/main.7a548675.css",
-    "main.js": "/AKTECH/static/js/main.32eb8e8b.js",
+    "main.js": "/AKTECH/static/js/main.331e6810.js",
     "static/media/Signinbg.jpg": "/AKTECH/static/media/Signinbg.78445edafc15d5b1590b.jpg",
     "static/media/msi-banner.jpg": "/AKTECH/static/media/msi-banner.afb7482a840ce9657338.jpg",
     "static/media/motherboard-carousel.png": "/AKTECH/static/media/motherboard-carousel.b77eadba853fff1a06ed.png",
@@ -53,10 +53,10 @@
     "index.html": "/AKTECH/index.html",
     "static/media/SSD.webp": "/AKTECH/static/media/SSD.b841658957c8de4519a5.webp",
     "main.7a548675.css.map": "/AKTECH/static/css/main.7a548675.css.map",
-    "main.32eb8e8b.js.map": "/AKTECH/static/js/main.32eb8e8b.js.map"
+    "main.331e6810.js.map": "/AKTECH/static/js/main.331e6810.js.map"
   },
   "entrypoints": [
     "static/css/main.7a548675.css",
-    "static/js/main.32eb8e8b.js"
+    "static/js/main.331e6810.js"
   ]
 }
