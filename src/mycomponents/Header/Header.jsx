@@ -27,7 +27,7 @@ export const Header = () => {
       <section><h4>Shipping</h4><h5 className="red">PAN India</h5> </section>
   </div></li>
   <li> 
-    <button onClick={() => navigate("/Signin") } className="button-85" role="button" to="/Signin">Sign in</button>
+    <button onClick={() => navigate("/Signin") } className="button-85" to="/Signin">Sign in</button>
   </li>
      </nav>
      <div className="contain flex flex-row">
@@ -57,15 +57,15 @@ export const Header = () => {
      </div>
       <div className="categories flex flex-row f px-4">
           <li><a href="/custompc"><div className="category-main-items">Custom PC</div></a></li>
-          <li><a href="#"><div className="category-main-items">Pre-BuiltPC</div></a></li>
-          <li><a href="#"><div className="category-main-items">Offline Store</div></a></li>
-          <li><a href="#"><div className="category-main-items">We are hiring</div></a></li>
+          <li><a href="/"><div className="category-main-items">Pre-BuiltPC</div></a></li>
+          <li><a href="/"><div className="category-main-items">Offline Store</div></a></li>
+          <li><a href="/"><div className="category-main-items">We are hiring</div></a></li>
       </div>
       </div>
       <div className="category-icons flex flex-row">
-        <li><div><a href=""><i className="fa-regular fa-user fa-xl black"></i></a></div></li>
-        <li><div><a href=""><i className="fa-regular fa-heart fa-xl black"></i></a></div></li>
-        <li><div><a href=""><i className="fa-solid fa-cart-shopping fa-xl cart-nav-icon black"></i></a></div></li>
+        <li><div><a href="/"><i className="fa-regular fa-user fa-xl black"></i></a></div></li>
+        <li><div><a href="/"><i className="fa-regular fa-heart fa-xl black"></i></a></div></li>
+        <li><div><a href="/"><i className="fa-solid fa-cart-shopping fa-xl cart-nav-icon black"></i></a></div></li>
       </div>
      </div>
      
