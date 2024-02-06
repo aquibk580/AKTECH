@@ -1,12 +1,12 @@
 import "./App.css";
 import "./utils.css";
-import { Header } from "./mycomponents/Header/Header.js";
-import { Main } from "./mycomponents/Main/Main.js";
-import { Footer } from "./mycomponents/Footer/Footer.js";
-import { Signin } from "./mycomponents/Sigin/Signin.js";
-import { CustomPC } from "./mycomponents/Custom PC/Custom_PC.js";
-import { AllCategories } from './mycomponents/All Categories/AllCategories.js';
-import { CategoryItem } from "./mycomponents/Category-components/CategoryItem.js";
+import { Header } from "./mycomponents/Header/Header";
+import { Main } from "./mycomponents/Main/Main";
+import { Footer } from "./mycomponents/Footer/Footer";
+import { Signin } from "./mycomponents/Sigin/Signin";
+import { CustomPC } from "./mycomponents/Custom PC/Custom_PC";
+import { AllCategories } from './mycomponents/All Categories/AllCategories';
+import { CategoryItem } from "./mycomponents/Category-components/CategoryItem";
 import {
   BrowserRouter as
   Router,
@@ -17,7 +17,7 @@ import {
  function App(){
   return (
     <>
-      <Router>
+      <Router basename="AKTECH">
         <Routes>
           <Route path="/" element={<><Header/><Main/><Footer/></>}/>
           <Route path="/custompc" element={<><Header/><CustomPC/><Footer/></>}/>

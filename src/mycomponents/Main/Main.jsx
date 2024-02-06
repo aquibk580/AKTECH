@@ -22,7 +22,7 @@ import { productData, responsive } from "./productData";
 
 export const Main = () => {
   const product = productData.map((item) => (
-    <Product  data = {item} />
+    <Product key={item.id}  data = {item} />
   ));
   const navigate = useNavigate();
   return (

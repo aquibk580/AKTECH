@@ -20,101 +20,119 @@ import img24 from "../Images/Headphones.webp";
 import img25 from "../Images/Gaming Chair.webp";
 import img26 from "../Images/UPS.webp";
 import { useNavigate } from "react-router-dom";
-import { Breadcrumb } from "react-bootstrap";
 
 export const AllCategories = () => {
   const categoryData = [
     {
+      id: 1,
       img: img8,
       name: "Processor",
       path: "/category/processor",
     },
     {
+      id: 2,
       img: img9,
       name: "Motherboard",
       path: "/category/motherboard",
     },
     {
+      id: 3,
       img: img10,
       name: "AIO Liquid Cooler",
       path: "/Processor",
     },
     {
+      id: 4,
       img: img11,
       name: "Air Cooler",
       path: "/Processor",
     },
     {
+      id: 5,
       img: img12,
       name: "RAM",
       path: "/Processor",
     },
     {
+      id: 6,
       img: img13,
       name: "Graphics Card",
       path: "/Processor",
     },
     {
+      id: 7,
       img: img14,
       name: "SSD",
       path: "/Processor",
     },
     {
+      id: 8,
       img: img15,
       name: "WD-Blue",
       path: "/Processor",
     },
     {
+      id: 9,
       img: img16,
       name: "Power Supply",
       path: "/Processor",
     },
     {
+      id: 10,
       img: img17,
       name: "Cabinet",
       path: "/Processor",
     },
     {
+      id: 11,
       img: img18,
       name: "Cabinet",
       path: "/Processor",
     },
     {
+      id: 12,
       img: img19,
       name: "Cabinet",
       path: "/Processor",
     },
     {
+      id: 13,
       img: img20,
       name: "Cabinet",
       path: "/Processor",
     },
     {
+      id: 14,
       img: img21,
       name: "Cabinet",
       path: "/Processor",
     },
     {
+      id: 15,
       img: img22,
       name: "Cabinet",
       path: "/Processor",
     },
     {
+      id: 16,
       img: img23,
       name: "Cabinet",
       path: "/Processor",
     },
     {
+      id: 17,
       img: img24,
       name: "Cabinet",
       path: "/Processor",
     },
     {
+      id: 18,
       img: img25,
       name: "Cabinet",
       path: "/Processor",
     },
     {
+      id: 19,
       img: img26,
       name: "Cabinet",
       path: "/Processor",
@@ -127,17 +145,17 @@ export const AllCategories = () => {
         <h1>Categories</h1>
         <div className="category flex flex-row">
           {categoryData.map((value) => {
-            return(
-          <div
-            className="category-box flex flex-col"
-            onClick={() => navigate(value.path)}
-          >
-            <img src={value.img} alt="" />
-            <h6>{value.name}</h6>
-          </div>
-          )
-           })}
-          </div>
+            return (
+              <div
+                className="category-box flex flex-col" key={value.id}
+                onClick={() => navigate(value.path)}
+              >
+                <img src={value.img} alt="" />
+                <h6>{value.name}</h6>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </>
   );

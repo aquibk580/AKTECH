@@ -1,10 +1,8 @@
-import React, { createElement } from 'react'
 import './Header.css'
 import img from '../Images/logo-main.png'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {Link} from "react-router-dom";
-import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import { SidebarData } from '../All Categories/SidebarData';
 import '../All Categories/SideBar.css'
@@ -44,9 +42,9 @@ export const Header = () => {
             <AiIcons.AiOutlineClose/>
           </Link>
         </li>
-        {SidebarData.map((item,index)=>{
+        {SidebarData.map((item)=>{
           return(
-            <li key = {index} className={item.cName}>
+            <li key = {item.id} className={item.cName}>
               <Link to={item.path}>
                 {item.icon}
                 <span className='sideTitle'>{item.title}</span>

@@ -1,8 +1,8 @@
 {
-  "homepage" : "htttps://aquibk580.github.io/AKTECH",
   "name": "aktech",
+  "homepage" : "https://aquibk580.github.io/AKTECH",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
     "@react-icons/all-files": "^4.1.0",

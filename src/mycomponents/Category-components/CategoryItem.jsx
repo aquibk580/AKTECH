@@ -23,27 +23,27 @@ const obj = [
   {
     type: "processor",
     products: [
-      { name: "intel Core i3 13100", price: "₹13,190", img: p1 },
-      { name: "AMD Ryzen 3 4300G", price: "₹8,750", img: p2 },
-      { name: "Intel Core i5 14600K", price: "₹30,650", img: p3 },
-      { name: "AMD Ryzen 5 5600X", price: "₹16,590", img: p4 },
-      { name: "Intel Core i7 14700K", price: "₹40,980", img: p5 },
-      { name: "AMD Ryzen 7 7800X", price: "₹36,490", img: p6 },
-      { name: "Intel Core i9 14900K", price: "₹55,390", img: p7 },
-      { name: "AMD Ryzen 9 7950X", price: "₹57,990", img: p8 },
+      { id:1, name: "intel Core i3 13100", price: "₹13,190", img: p1 },
+      { id:2, name: "AMD Ryzen 3 4300G", price: "₹8,750", img: p2 },
+      { id:3, name: "Intel Core i5 14600K", price: "₹30,650", img: p3 },
+      { id:4, name: "AMD Ryzen 5 5600X", price: "₹16,590", img: p4 },
+      { id:5, name: "Intel Core i7 14700K", price: "₹40,980", img: p5 },
+      { id:6, name: "AMD Ryzen 7 7800X", price: "₹36,490", img: p6 },
+      { id:7, name: "Intel Core i9 14900K", price: "₹55,390", img: p7 },
+      { id:8, name: "AMD Ryzen 9 7950X", price: "₹57,990", img: p8 },
     ],
   },
   {
     type: "motherboard",
     products: [
-      { name: "Gigabyte B550M DS3H", price: "₹8,390", img: m1 },
-      { name: "MSI B550 Tomahawk", price: "₹17,420", img: m2 },
-      { name: "Gigabyte B650 gaming X", price: "₹17,020", img: m3 },
-      { name: "MSI PRO B760M-E", price: "₹17,020", img: m4 },
-      { name: "ROG MAXIMUS Z790", price: "₹61,990", img: m5 },
-      { name: "ROG Strix X670E-E", price: "₹49,190", img: m6 },
-      { name: "MSI MEG X670E ACE", price: "₹75,810", img: m7 },
-      { name: "MSI MPG Z790 Edge", price: "₹38,850", img: m8 },
+      { id:1, name: "Gigabyte B550M DS3H", price: "₹8,390", img: m1 },
+      { id:2, name: "MSI B550 Tomahawk", price: "₹17,420", img: m2 },
+      { id:3, name: "Gigabyte B650 gaming X", price: "₹17,020", img: m3 },
+      { id:4, name: "MSI PRO B760M-E", price: "₹17,020", img: m4 },
+      { id:5, name: "ROG MAXIMUS Z790", price: "₹61,990", img: m5 },
+      { id:6, name: "ROG Strix X670E-E", price: "₹49,190", img: m6 },
+      { id:7, name: "MSI MEG X670E ACE", price: "₹75,810", img: m7 },
+      { id:8, name: "MSI MPG Z790 Edge", price: "₹38,850", img: m8 },
     ],
   },
 ];
@@ -185,7 +185,7 @@ export const CategoryItem = (props) => {
           <div className="category-item-row flex flex-row py-3">
             {selectedObj.products.map((value) => {
               return (
-                <div className="category-item-box flex flex-col">
+                <div className="category-item-box flex flex-col" key={value.id}>
                   <img src={value.img} alt="" />
                   <h5>{value.name}</h5>
                   <div className="custom-stars flex flex-row">
