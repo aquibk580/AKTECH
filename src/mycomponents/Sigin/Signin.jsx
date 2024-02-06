@@ -25,8 +25,8 @@ export const Signin = () => {
             <i></i>
         </div>
         <div className="Links">
-            <a href="#">Forgot Password</a>
-            <a href="#">Signup</a>
+            <a href="/">Forgot Password</a>
+            <a href="/">Signup</a>
         </div>
         <input name='submit' id='submit' type="submit" value="Log in"/>
         <p><span className='inline-line'></span> OR LOGIN WITH <span className='inline-line'></span></p>
@@ -36,7 +36,7 @@ export const Signin = () => {
         </div>
         <div className="create-account white flex flex-col">
             <span>No Account Yet?</span><br />
-            <a href="#" className='white'>Create Account</a>
+            <a href="/" className='white'>Create Account</a>
         </div>
     </form>
 </div>
