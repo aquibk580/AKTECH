@@ -43,9 +43,10 @@
         position: relative;
         top:110px;
         margin: 0;
+        padding: 50px 0;
     }
     .custom-pc-box{
-        padding: 20px 10px;
+        padding: 20px 5px;
     }
     .custom-pc-box-main img{
         width: 20vh;
@@ -59,12 +60,12 @@
     }
     .custom-pc-main h4{
         position: relative;
-        left: -30px;
+        left: 30px;
         width: 300px;
-    }
+    } 
     .pyfc{
        position: relative;
-       left: -30px;
+       left: 30px;
        width: 300px;
     }
     .in-stock{
