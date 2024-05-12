@@ -17,7 +17,7 @@ import {
  function App(){
   return (
     <>
-      <Router basename="AKTECH">
+      <Router>
         <Routes>
           <Route path="/" element={<><Header/><Main/><Footer/></>}/>
           <Route path="/custompc" element={<><Header/><CustomPC/><Footer/></>}/>
